@@ -1,17 +1,17 @@
-const { User } = require('../models')
+const { User } = require('../models');
 
 class UserController {
-  create (req, res) {
-    return res.render('auth/signup')
+  create(req, res) {
+    return res.render('auth/signup');
   }
 
-  store (req, res) {
-    const { filename: avatar } = req.file
+  store(req, res) {
+    const { filename: avatar } = req.file;
 
-    User.create({ ...req.body, avatar })
+    User.create({ ...req.body, avatar });
 
-    return res.redirect('/')
+    return res.redirect('/');
   }
 }
 
-module.exports = new UserController()
+module.exports = new UserController();
