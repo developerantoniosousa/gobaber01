@@ -14,6 +14,12 @@ $ npm i // or yarn
 
 2. copy .env.example for .env and set up.
 
+### Setup database
+
+```
+npx sequelize db:migrate
+```
+
 ### Running
 
 ```
