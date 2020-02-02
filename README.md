@@ -7,7 +7,7 @@ Gobarber v1
 1. Download project and dependencies
 
 ```
-$ git clone https://github.com/developerantoniosousa/gobaber01
+$ git clone https://github.com/developerantoniosousa/gobarber01
 $ cd gobarber01
 $ npm i // or yarn
 ```
