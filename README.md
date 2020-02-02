@@ -1,6 +1,6 @@
-# gobaber01
+# gobarber01
 
-Gobaber v1
+Gobarber v1
 
 ### Installation and setup
 
